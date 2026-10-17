@@ -1,25 +1,37 @@
 {
   "expo": {
-    "name": "frontend",
-    "slug": "frontend",
+    "name": "iTrust-The Social App",
+    "slug": "iTrust-The Social App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/itrust-logo.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#bce3ffff",
+        "foregroundImage": "./assets/itrust-logo.png",
+        "backgroundImage": "./assets/itrust-logo.png",
+        "monochromeImage": "./assets/icon.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+  "expo-secure-store",
+  [
+    "expo-splash-screen",
+    {
+      "image": "./assets/itrust-logo.png",
+      "imageWidth": 220,
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
     }
+  ]
+]
   }
 }
